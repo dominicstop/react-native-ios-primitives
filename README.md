@@ -23,7 +23,12 @@ Native components for `react-native` (WIP + placeholder for now, please see [que
 * **Question**: honey, why not just put everything into one big monorepo? this seems unnecessarily messy idk
   * **Answer**: i agree sm 😭, however i do not have the knowledge and resources required to create and maintain a monorepo that has multiple languages (e.g. swift/c++/objc/typescript), and packagers (e.g. npm/cocoapods/SPM); this is the best i can do for now sorry<br><br>
 * **Question**: ok, i understand; are there at least any benefits of separating the dependencies out?
-  * **Answer**: yeah—although it's a versioning and maintenance nightmare—I am at least able to create an example for each library so i can test if they're working or not, while at the same time making sure that a bug is caused either by RN weirdness or from `UIKit`.<br><br>
+  * **Answer**: yeah—although it's a versioning and maintenance nightmare—I am at least able to create an example for each library so i can test and if they're working or not, while at the same time being able to isolate whether a bug is caused by `react-native`, or from `UIKit`.<br><br>
 * **Question**: Why use this library, instead of directly using the dependencies?
   * **Answer**: The libraries listed in the [dependencies section](#dependencies) have different versions, and it's kind of hard to keep track which libraries are compatible with each other; using this "wrapper" library instead makes sure the correct version for all the dependencies is installed. 
-  * Although i try my best to follow the "semantic versioning" guidelines, i make mistakes sometimes, and introduce breaking changes accidentally; this causes a cascade/domino effect where i unknowingly break the other libraries.
+  * Although i try my best to follow the "semantic versioning" guidelines, i make mistakes sometimes, and introduce breaking changes accidentally; this causes a cascade/domino effect where i unknowingly break the other libraries.<br><br>
+* **Question**: Aside from being a "wrapper" library for "unifying" the dependencies and their different versions (and ensuring that they are compatible w/ one another), what else does this library do?
+  * **Answer**: Create components that utilize the native `UIKit` primitives and API's, e.g.: combining `react-native-ios-adaptive-modal` (to create a sheet), `react-native-ios-list-view` (to create a grid), and `PHPhotoLibrary` to make a custom image picker, etc.<br><br>
+* **Question**: gurl, why is there a [sponsor button](https://github.com/sponsors/dominicstop)? it's giving greedy tbh
+  * **Answer**: you don't have to, but it would be nice of you, if you did 🥺👉👈
+  * i'm just trying things out; this is mostly just for people (and organizations) who have the extra means to do so.
