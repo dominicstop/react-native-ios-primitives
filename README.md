@@ -32,3 +32,7 @@ Native components for `react-native` (WIP + placeholder for now, please see [que
 * **Question**: gurl, why is there a [sponsor button](https://github.com/sponsors/dominicstop)? it's giving greedy tbh
   * **Answer**: you don't have to, but it would be nice of you, if you did 🥺👉👈
   * i'm just trying things out; this is mostly just for people (and organizations) who have the extra means to do so.
+  * Special thanks to [@junzhengca](https://github.com/junzhengca) for opening this [issue](https://github.com/dominicstop/react-native-ios-context-menu/issues/104) regarding financially supporting `react-native-ios-modal`, and becoming my 2nd sponsor 🥺.
+  * Special thanks to [@natew](https://github.com/natew/natew) for becoming my 1st sponsor, and funding the work needed to make the libraries listed in the [dependencies section](#dependencies) work together.<br><br>
+* **Question**: Is there a way to track the progress?
+  * **Answer**: I try my best to track progress at this [gist](https://gist.github.com/dominicstop/0dc1f56b14d6e96e4755398afbdb8caf) — it contains a timeline/log of the things i am currently working on.
